@@ -1,0 +1,11 @@
+.product-page-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.product-image{
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 200px;
+}

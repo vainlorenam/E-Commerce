@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NavBar -->
+    <nav class="nav-bar">
+        <div class="navbar-buttons section-container">
+            <div class="hamburger-menu-app-name-container">
+                <img class="hamburger-menu" src="./images/hamburger-menu.svg">
+                    <h3> My App </h3>
+            </div>
+            <div class="search-bar-shopping-cart-container">
+                <div class="search-container">
+                    <input class="search-bar" type="text" placeholder="Search product..">
+                    <img class="search-button" src="./images/search.svg"/>
+                </div>
+                <img class="shopping-cart" src="./images/shopping-cart.svg">
+            </div>
+        </div>
+    </nav>
+
+    <div class="navbar-placeholder"></div>
+
+    <!-- SideBar -->
+    <div class="sidebar">
+        <h3> Your Shopping Cart </h3>
+        <div class="cart-products-container"></div>
+        <p class="cart-count"> Your cart is empty </p>
+        <h4 class="total-price"> Total: $0.00 </h4>
+    </div>
+
+    <!-- Overlay -->
+    <div class="overlay"></div>
+
+    <!-- Product Cards -->
+    <div class="product-cards-container section-container"> </div>
+    
+    <!-- Categories Menu -->
+    <div class="categories-menu"> 
+        <h3>Categories</h3>
+        <Button class="category-button mens-clothing">Men's clothing</Button>
+        <Button class="category-button womens-clothing">Women's clothing</Button>
+        <Button class="category-button electronics">Electronics</Button>
+        <Button class="category-button jewelery">Jewelery</Button>
+    </div>
+
+    <!-- Overlay -->
+    <div class="overlay-categories"></div>
+
+    <script src="sidebar.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
